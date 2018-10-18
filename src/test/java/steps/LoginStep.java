@@ -16,9 +16,7 @@ import java.util.List;
 /**
  * Created by Karthik on 10/15/2016.
  */
-@RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/java/steps"} , format = {"json:target/cucumber.json","html:target/site/cucumber-pretty"},
-        glue = "steps")
+
 public class LoginStep extends BaseUtil{
 
     private  BaseUtil base;
