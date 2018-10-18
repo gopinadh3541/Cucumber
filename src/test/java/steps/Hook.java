@@ -10,8 +10,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  * Created by Karthik on 10/17/2016.
  */
-@RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/java/steps"} , format = {"json:target/cucumber.json","html:target/site/cucumber-pretty"})
 public class Hook extends BaseUtil{
 
 
